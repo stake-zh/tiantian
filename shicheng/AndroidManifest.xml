@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.stake.shicheng"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8"/>
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/icon"
+                 android:name="com.stake.shicheng.entity.PrjApplication"
+                 android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name="com.stake.shicheng.module.login.Activity_Splash"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".module.login.Activity_Login"/>
+    </application>
+</manifest> 

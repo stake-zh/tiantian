@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="login_view_width">250dp</dimen>
+
+    <!-- textsize -->
+    <dimen name="textsize_huge">24sp</dimen>
+    <dimen name="textsize_large">22sp</dimen>
+    <dimen name="textsize_normal">20sp</dimen>
+    <dimen name="textsize_lesssmall">18sp</dimen>
+    <dimen name="textsize_small">17sp</dimen>
+    <dimen name="textsize_smaller">19sp</dimen>
+    <dimen name="textsize_more_huge">33sp</dimen>
+</resources>
