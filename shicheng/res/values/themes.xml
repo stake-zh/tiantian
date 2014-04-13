@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TiantianActionBarTheme"
+           parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/TiantianActionBar</item>
+        <item name="actionBarStyle">@style/TiantianActionBar</item>
+    </style>
+
+    <style name="TiantianActionBar"
+           parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/gray</item>
+        <item name="background">@color/gray</item>
+    </style>
+</resources>
