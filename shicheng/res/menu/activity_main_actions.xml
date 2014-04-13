@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tiantian="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+          android:title="搜索"
+          android:icon="@drawable/abc_ic_search"
+          tiantian:showAsAction="always"/>
+    <item android:id="@+id/action_moring"
+          android:title="更多"
+          android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark"
+          tiantian:showAsAction="always">
+        <menu>
+            <item android:id="@+id/setting"
+                    android:icon="@drawable/ic_actionbar_setting"
+                    android:title="设置"/>
+        </menu>
+    </item>
+</menu>

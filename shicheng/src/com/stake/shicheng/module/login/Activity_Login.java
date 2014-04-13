@@ -1,8 +1,11 @@
 package com.stake.shicheng.module.login;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import com.stake.shicheng.R;
 import com.stake.shicheng.base.BaseActivity;
+import com.stake.shicheng.module.main.Activity_Main;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,5 +18,13 @@ public class Activity_Login extends BaseActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_login);
+        findViewById(R.id.btn_login).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity_Login.this, Activity_Main.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
