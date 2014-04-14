@@ -2,8 +2,11 @@ package com.stake.shicheng.module.main;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import com.stake.shicheng.R;
 import com.stake.shicheng.base.BaseActivity;
@@ -31,6 +34,9 @@ public class Activity_Main extends BaseActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.activity_main_actions, menu);
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+//        searchView.setOnQueryTextListener();
         return super.onCreateOptionsMenu(menu);
     }
 }

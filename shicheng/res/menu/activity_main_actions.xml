@@ -5,7 +5,8 @@
     <item android:id="@+id/action_search"
           android:title="搜索"
           android:icon="@drawable/abc_ic_search"
-          tiantian:showAsAction="always"/>
+          tiantian:showAsAction="always|collapseActionView"
+          tiantian:actionViewClass="android.support.v7.widget.SearchView"/>
     <item android:id="@+id/action_moring"
           android:title="更多"
           android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark"
